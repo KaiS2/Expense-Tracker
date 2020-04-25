@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Submission Notes
+I completed the frontend part of the expense tracker but I didn't have time to finish the backend. I am in the midst of studying for and writing my final exams right now so I wasn't able to put as much time into this coding challenge as I would have liked.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
