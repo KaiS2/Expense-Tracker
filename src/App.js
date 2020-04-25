@@ -2,25 +2,30 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import ExpenseTable from "./ExpenseTable";
+import UserInput from "./UserInput";
+
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Expense Tracker
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      
+        <div style = {{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
+          <ExpenseTable />
+        </div>
       </header>
     </div>
   );
 }
 
 export default App;
+
+
+
+// Sources:
+// https://dev.to/abdulbasit313/an-easy-way-to-create-a-customize-dynamic-table-in-react-js-3igg
+
