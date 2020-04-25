@@ -26,6 +26,7 @@ export default App;
 
 
 
-// Sources:
+// Parts of this code were based of these sources:
 // https://dev.to/abdulbasit313/an-easy-way-to-create-a-customize-dynamic-table-in-react-js-3igg
+// https://reactjs.org/tutorial/tutorial.html
 
